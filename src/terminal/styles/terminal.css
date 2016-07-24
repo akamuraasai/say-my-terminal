@@ -22,3 +22,7 @@ div.input-container .input-line:before {
 input.input-text {
   width: 70%;
 }
+
+input.input-text:focus{
+    outline: none;
+}
