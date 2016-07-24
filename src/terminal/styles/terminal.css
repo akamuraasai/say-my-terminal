@@ -1,0 +1,24 @@
+body {
+  background-color: #222;
+}
+
+div.input-container .input-line, div.input-container .input-text, div.input-container .output-line {
+  color: #FFF;
+  font-family: "Lucida Console";
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+}
+
+div.input-line {
+  padding-bottom: 12px;
+}
+
+div.input-container .input-line:before {
+  content: attr(data-usr) ":" attr(data-dir) "$ ";
+  color: green;
+}
+
+input.input-text {
+  width: 70%;
+}

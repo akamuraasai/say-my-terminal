@@ -1,0 +1,17 @@
+{
+  "name": "akamuraasai_terminal",
+  "version": "0.0.1",
+  "description": "A web terminal simulator to portfolio and jokes usage.",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "terminal",
+    "web",
+    "akamuraasai",
+    "portfolio"
+  ],
+  "author": "Akamura Asai",
+  "license": "GPL-3.0"
+}
